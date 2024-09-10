@@ -1,8 +1,5 @@
 {
   "name": "anyflow-demo-hello-world",
-  "engines": {
-    "node": "^20"
-  },
   "scripts": {
     "compile": "hardhat compile",
     "deploy": "hardhat run ./scripts/deploy.ts",
@@ -24,7 +21,6 @@
     "hardhat-gas-reporter": "^1.0.8",
     "solidity-coverage": "^0.8.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5",
     "viem": "^2.9.26"
   }
 }
